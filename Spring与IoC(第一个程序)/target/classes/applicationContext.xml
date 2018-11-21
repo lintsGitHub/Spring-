@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--所有对象都在此注册-->
+    <!--The id attribute is a string that identifies the individual bean definition.-->
+    <!--ID属性是标识单个bean定义的字符串-->
+    <!--The class attribute defines the type of the bean and uses the fully qualified classname.-->
+    <!--类属性定义bean的类型，并使用完全限定的类名-->
+    <!--注册这个bean底层其实就是做了一件事 Spring创建对象并放到容器中-->
+    <!--InterServiceImpl ServiceImpl = new InterServiceImpl();-->
+    <bean id="ServiceImpl" class="org.lint.service.InterServiceImpl">
+        <!-- collaborators and configuration for this bean go here -->
+        <!--我们还可以写一些这个bean的配置和其他一些东西在这里-->
+    </bean>
+
+</beans>
