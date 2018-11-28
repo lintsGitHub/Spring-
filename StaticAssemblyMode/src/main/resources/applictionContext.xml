@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--注册Service : 静态工厂bean-->
+    <!--如果不加factory-method这个属性就是创建一个工厂对象，但如果是加了，就是通过这个类的factory-method的值-方法名来创建一个对象放到容器中-->
+    <!--记得这个类是静态的，也就是说不用创建就可以通过方法拿到对象-->
+    <bean id="BeanDAO" class="org.lint.DAO.StaticServiceFactory" factory-method="getStaticAssemblyIpml"></bean>
+
+</beans>

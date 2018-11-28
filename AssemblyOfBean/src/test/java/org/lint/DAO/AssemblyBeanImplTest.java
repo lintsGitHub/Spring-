@@ -4,6 +4,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.io.*;
+
 
 public class AssemblyBeanImplTest {
 
@@ -25,5 +27,7 @@ public class AssemblyBeanImplTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         AssemblyBeanImpl bean = (AssemblyBeanImpl) context.getBean("BeanDAO");
         bean.statement();
+
     }
+
 }

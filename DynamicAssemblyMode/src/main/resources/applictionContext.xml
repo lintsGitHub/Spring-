@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--注册动态工厂-->
+    <bean id="beanFactory" class="org.lint.DAO.ServiceFactory"></bean>
+
+    <!--注册Service ：动态工厂bean-->
+    <!--也就是说，我们注册了一个ID是myService，由beanFactory工厂getDynamicIpml方法创建出来的一个对象-->
+    <!--我们就可以使用了，大大降低了耦合度-->
+    <bean id="myService" factory-bean="beanFactory" factory-method="getDynamicIpml"></bean>
+</beans>

@@ -7,6 +7,10 @@ public class AssemblyBeanImpl implements AssemblyBeanDAO {
         this.a = a;
     }
 
+    public AssemblyBeanImpl(){
+
+    }
+
     @Override
     public void statement() {
         System.out.println("I am here");

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--我们就使用静态工厂来测一下scope="singleton"时是什么情况-->
+    <bean id="singleton"
+          class="org.lint.BeanFactory"
+          factory-method="getBeanScopeImpl"
+          scope="singleton"
+    ></bean>
+
+    <!--我们就使用静态工厂来测一下scope="prototype"时是什么情况-->
+    <bean id="prototype"
+          class="org.lint.BeanFactory"
+          factory-method="getBeanScopeImpl"
+          scope="prototype"
+    ></bean>
+
+</beans>
