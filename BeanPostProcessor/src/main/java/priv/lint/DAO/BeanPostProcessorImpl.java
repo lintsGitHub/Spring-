@@ -7,7 +7,7 @@ public class BeanPostProcessorImpl implements BeanPostProcessor {
 
     @Override
     public String seyHello() {
-        System.out.println("toHello");
+        //System.out.println("toHello");
         return "hello";
     }
 }

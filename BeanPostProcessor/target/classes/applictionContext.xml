@@ -9,6 +9,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--注册一个默认装配模式Bean-->
     <bean id="beanPostProcessor" class="priv.lint.DAO.BeanPostProcessorImpl"></bean>
+    <bean id="beanPostProcessor2" class="priv.lint.DAO.BeanPostProcessorImpl"></bean>
 
     <bean class="priv.lint.DAO.MyBeanPostProcessor "></bean>
 
