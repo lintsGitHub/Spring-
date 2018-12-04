@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a435fc-58d3-456a-a545-a93394072bcd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applictionContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applictionContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applictionContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applictionContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/DAO/BeanPostProcessorImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/priv/lint/DAO/BeanPostProcessorImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +24,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.35" value="1" />
@@ -27,19 +32,19 @@
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="845" />
-          <entry key="xml" value="106" />
+          <entry key="java" value="855" />
+          <entry key="xml" value="186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="845" />
-          <entry key="XML" value="106" />
+          <entry key="JAVA" value="855" />
+          <entry key="XML" value="186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,19 +66,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-912">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applictionContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="432">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -81,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="48">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -91,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="34" />
               <folding>
                 <element signature="e#125#126#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
@@ -100,42 +96,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="264">
+              <caret line="11" selection-start-line="11" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1159#1502#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/MyBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#707#1037#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/MyBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="32" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,10 +142,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/applictionCotext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applictionContext.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/DAO/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applictionContext.xml" />
       </list>
     </option>
   </component>
@@ -188,7 +167,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="21" />
+    <option name="x" value="644" />
+    <option name="y" value="39" />
     <option name="width" value="1026" />
     <option name="height" value="618" />
   </component>
@@ -201,7 +181,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,23 +337,12 @@
       <workItem from="1543811662247" duration="4726000" />
       <workItem from="1543828032410" duration="3266000" />
       <workItem from="1543846685979" duration="219000" />
-      <workItem from="1543883629139" duration="2913000" />
+      <workItem from="1543883629139" duration="4148000" />
+      <workItem from="1543934008512" duration="1808000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BeanPostProcessorImplTest_Cglib - 2018.12.03 at 17h 12m 24s.xml">
-      <configuration name="BeanPostProcessorImplTest.Cglib" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanPostProcessorImplTest_Cglib - 2018.12.03 at 17h 19m 12s.xml">
-      <configuration name="BeanPostProcessorImplTest.Cglib" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanPostProcessorImplTest_test - 2018.12.03 at 17h 19m 18s.xml">
-      <configuration name="BeanPostProcessorImplTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanPostProcessorImplTest_Cglib - 2018.12.03 at 17h 27m 00s.xml">
-      <configuration name="BeanPostProcessorImplTest.Cglib" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BeanPostProcessorImplTest_Cglib - 2018.12.04 at 11h 29m 20s.xml">
       <configuration name="BeanPostProcessorImplTest.Cglib" configurationId="JUnit" />
     </history-entry>
@@ -392,9 +361,21 @@
     <history-entry file="BeanPostProcessorImplTest_test - 2018.12.04 at 11h 36m 07s.xml">
       <configuration name="BeanPostProcessorImplTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BeanPostProcessorImplTest_test - 2018.12.04 at 23h 01m 40s.xml">
+      <configuration name="BeanPostProcessorImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanPostProcessorImplTest_test - 2018.12.04 at 23h 02m 58s.xml">
+      <configuration name="BeanPostProcessorImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanPostProcessorImplTest_test - 2018.12.04 at 23h 03m 10s.xml">
+      <configuration name="BeanPostProcessorImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanPostProcessorImplTest_test - 2018.12.04 at 23h 04m 24s.xml">
+      <configuration name="BeanPostProcessorImplTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20132000" />
+    <option name="totallyTimeSpent" value="23175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -442,54 +423,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorFactoryTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applictionContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/proxy/Proxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="53" column="80" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1159#1502#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,14 +441,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applictionContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/MyBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#707#1037#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DAO/BeanPostProcessorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
