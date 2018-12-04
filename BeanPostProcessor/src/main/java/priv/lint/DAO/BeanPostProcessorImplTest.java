@@ -12,7 +12,7 @@ public class BeanPostProcessorImplTest {
     @Test
     public void test(){
         ApplicationContext context = new ClassPathXmlApplicationContext("applictionContext.xml");
-        BeanPostProcessorImpl bean = (BeanPostProcessorImpl) context.getBean("beanPostProcessor");
+        BeanPostProcessor bean = (BeanPostProcessor) context.getBean("beanPostProcessor");
         bean.seyHello();
         System.out.println(bean.seyHello());
     }
@@ -26,7 +26,8 @@ public class BeanPostProcessorImplTest {
         * 唉，还是对Cglib动态代理不够熟悉，也可以说对Cglib原理还是不够熟悉
         * 目前推测是在强制转换时有问题
         * */
-        BeanPostProcessor processor = (BeanPostProcessorImpl) Proxy.newProxyInstance(beanPostProcessor.getClass().getClassLoader(),
+        BeanPostProcessor processor = (BeanPostProcessor) Proxy.newProxyInstance(
+                beanPostProcessor.getClass().getClassLoader(),
                 beanPostProcessor.getClass().getInterfaces(),
                 new InvocationHandler() {
                     @Override
