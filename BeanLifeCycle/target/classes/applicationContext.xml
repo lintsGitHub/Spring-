@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="BeanLifeCycle" class="priv.lint.entity.BeanLifeCycleIpml" init-method="init" destroy-method="destroy">
+    <bean id="BeanLifeCycle" class="priv.lint.entity.BeanLifeCycleIpml" init-method="initBean" destroy-method="destroyBean">
         <property name="sayName" value="吾名天秀"/>
     </bean>
     <bean class="priv.lint.entity.MyBeanPostProcessor"/>

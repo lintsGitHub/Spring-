@@ -9,7 +9,7 @@ public class BeanLifeCycleIpmlTest {
     public void beanLifeCycleTest(){
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         BeanLifeCycleIpml lifeCycle = (BeanLifeCycleIpml) context.getBean("BeanLifeCycle");
-        System.out.println(lifeCycle.sayHello());
+        System.out.println("9--执行sayHello方法"+lifeCycle.sayHello());
         context.close();
     }
 

@@ -3,9 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="BeanLifeCycle" class="priv.lint.entity.BeanLifeCycleIpml" init-method="init" destroy-method="destroy">
+    <!--注册Bean-->
+    <bean id="BeanLifeCycle" class="priv.lint.entity.BeanLifeCycleIpml" init-method="initBean" destroy-method="destroyBean">
         <property name="sayName" value="吾名天秀"/>
     </bean>
+
+    <!--注册个人的Bean后处理器-->
     <bean class="priv.lint.entity.MyBeanPostProcessor"/>
 </beans>

@@ -1,12 +1,9 @@
 package priv.lint.entity;
 
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.BeanFactoryAware;
-import org.springframework.beans.factory.BeanNameAware;
-import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.*;
 
-public class BeanLifeCycleIpml implements BeanLifeCycle , BeanNameAware , BeanFactoryAware , InitializingBean {
+public class BeanLifeCycleIpml implements BeanLifeCycle , BeanNameAware , BeanFactoryAware , InitializingBean , DisposableBean {
 
     private String sayName;
 
@@ -14,40 +11,47 @@ public class BeanLifeCycleIpml implements BeanLifeCycle , BeanNameAware , BeanFa
         return sayName;
     }
 
-    public void setSayName(String sayName) {
-        System.out.println("我在设置类中的属性"+sayName);
-        this.sayName = sayName;
-    }
-
     public BeanLifeCycleIpml() {
-        System.out.println("我在构造函数中");
+        System.out.println("1--我在构造函数中");
     }
 
-    @Override
-    public String sayHello() {
-        System.out.println("工作中啊");
-        return "我在工作了。。。在写一个SayHello";
-    }
-
-    public void init(){
-        System.out.println("初始化");
-    }
-    public void destroy(){
-        System.out.println("销毁吧");
+    public void setSayName(String sayName) {
+        System.out.println("2--我在设置类中的属性"+sayName);
+        this.sayName = sayName;
     }
 
     @Override
     public void setBeanName(String s) {
-        System.out.println(s);
+        System.out.println("3--获取到Bean的ID=="+s);
     }
 
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-        System.out.println(beanFactory);
+        System.out.println("4--获取到BeanFactory容器=="+beanFactory);
     }
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("哈哈哈");
+        System.out.println("6--Bean初始化完毕了");
+    }
+
+    public void initBean(){
+        System.out.println("7--初始化完毕之后");
+    }
+
+    @Override
+    public String sayHello() {
+        System.out.println("9--执行sayHello方法");
+        return "SayHello";
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("10--这个类销毁之前");
+    }
+
+    public void destroyBean(){
+        System.out.println("11--销毁之前");
     }
 }
+
