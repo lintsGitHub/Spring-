@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="BeanLifeCycle" class="priv.lint.entity.BeanLifeCycleIpml" init-method="initBean" destroy-method="destroyBean">
-        <property name="sayName" value="吾名天秀"/>
-    </bean>
+http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--注册Bean-->
+    <!--<bean id="BeanLifeCycle" class="priv.lint.entity.BeanLifeCycleIpml" init-method="initBean" destroy-method="destroyBean">-->
+        <!--<property name="sayName" value="吾名天秀"/>-->
+    <!--</bean>-->
+    <context:annotation-config/>
+    <!--注册个人的Bean后处理器-->
     <bean class="priv.lint.entity.MyBeanPostProcessor"/>
 </beans>

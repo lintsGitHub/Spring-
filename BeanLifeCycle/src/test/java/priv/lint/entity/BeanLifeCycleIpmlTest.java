@@ -5,6 +5,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class BeanLifeCycleIpmlTest {
 
+
+
     @Test
     public void beanLifeCycleTest(){
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
@@ -12,5 +14,4 @@ public class BeanLifeCycleIpmlTest {
         System.out.println("9--执行sayHello方法"+lifeCycle.sayHello());
         context.close();
     }
-
 }

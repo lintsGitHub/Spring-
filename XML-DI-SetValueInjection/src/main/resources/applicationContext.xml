@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stu" class="priv.lint.Bean.Student">
+        <!--设值注入-->
+        <property name="name" value="李雷"/>
+    </bean>
+
+    <bean class="priv.lint.Bean.SetValueInjectionImpl">
+        <!--构造注入-->
+        <constructor-arg  value="李雷"/>
+        <constructor-arg  value="100"/>
+        <constructor-arg type="priv.lint.Bean.Student" ref="stu"/>
+    </bean>
+
+</beans>

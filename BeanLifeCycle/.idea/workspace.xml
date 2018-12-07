@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a2c29032-9ae9-4408-9a06-bfcf8fcbeb31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/lint/entity/BeanLifeCycleIpml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/lint/entity/BeanLifeCycleIpml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/entity/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/priv/lint/entity/MyBeanPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/priv/lint/entity/BeanLifeCycleIpmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/priv/lint/entity/BeanLifeCycleIpmlTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,36 +23,39 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.331" value="1" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="708" />
-          <entry key="xml" value="100" />
+          <entry key="java" value="779" />
+          <entry key="xml" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="708" />
-          <entry key="XML" value="100" />
+          <entry key="JAVA" value="779" />
+          <entry key="XML" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="java" value="9" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="9" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="13" lean-forward="true" selection-end-line="18" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,18 +86,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/entity/BeanLifeCycleIpml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="20" column="5" lean-forward="true" selection-end-line="57" />
+            <state relative-caret-position="288">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -111,11 +107,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-193">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="45" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -139,10 +144,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/entity/BeanLifeCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/entity/BeanLifeCycleIpml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java" />
       </list>
     </option>
   </component>
@@ -166,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +274,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +308,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BeanLifeCycleIpmlTest.beanLifeCycleTest">
+    <configuration name="BeanLifeCycleIpmlTest.aa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BeanLifeCycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="priv.lint.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="priv.lint.entity" />
+      <option name="MAIN_CLASS_NAME" value="priv.lint.entity.BeanLifeCycleIpmlTest" />
+      <option name="METHOD_NAME" value="aa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BeanLifeCycle" />
       <extension name="coverage">
@@ -320,9 +341,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.BeanLifeCycleIpmlTest.beanLifeCycleTest" />
+      <item itemvalue="JUnit.BeanLifeCycleIpmlTest.aa" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BeanLifeCycleIpmlTest.beanLifeCycleTest" />
+        <item itemvalue="JUnit.BeanLifeCycleIpmlTest.aa" />
       </list>
     </recent_temporary>
   </component>
@@ -341,28 +367,13 @@
       <workItem from="1544011037869" duration="230000" />
       <workItem from="1544012255786" duration="629000" />
       <workItem from="1544014194917" duration="3031000" />
+      <workItem from="1544056313812" duration="6206000" />
+      <workItem from="1544108054014" duration="2394000" />
+      <workItem from="1544139956410" duration="1853000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 10h 31m 39s.xml">
-      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 10h 36m 04s.xml">
-      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 21h 01m 21s.xml">
-      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 21h 08m 37s.xml">
-      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 21h 13m 39s.xml">
-      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 21h 22m 51s.xml">
-      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 21h 24m 33s.xml">
       <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
     </history-entry>
@@ -375,14 +386,33 @@
     <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.05 at 21h 34m 26s.xml">
       <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BeanLifeCycleIpmlTest_aa - 2018.12.06 at 09h 26m 05s.xml">
+      <configuration name="BeanLifeCycleIpmlTest.aa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.06 at 10h 50m 21s.xml">
+      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.06 at 14h 55m 32s.xml">
+      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.06 at 14h 58m 18s.xml">
+      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.06 at 14h 58m 46s.xml">
+      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanLifeCycleIpmlTest_beanLifeCycleTest - 2018.12.06 at 15h 35m 56s.xml">
+      <configuration name="BeanLifeCycleIpmlTest.beanLifeCycleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10469000" />
+    <option name="totallyTimeSpent" value="20922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2678843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20776255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -457,24 +487,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/priv/lint/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -485,28 +501,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/entity/BeanLifeCycleIpml.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="20" column="5" lean-forward="true" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" lean-forward="true" selection-end-line="18" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/entity/BeanLifeCycleIpml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -515,18 +530,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="62" />
         </state>
       </provider>
     </entry>
