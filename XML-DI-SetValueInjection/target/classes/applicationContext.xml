@@ -5,13 +5,67 @@
 http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="stu" class="priv.lint.Bean.Student">
+        <!--设值注入-->
         <property name="name" value="李雷"/>
+
     </bean>
 
-    <bean class="priv.lint.Bean.SetValueInjectionImpl">
+    <!--
+    合并合并
+    Spring容器还支持合并集合。
+    应用程序开发人员可以定义父<list/>，<map/>，<set/>或<props/>元素，
+    并有孩子<list/>，<map/>，<set/>或<props/>元素继承和父集合覆盖值。
+    也就是说，子集合的值是合并父集合和子集合的元素的结果，
+    子集合的元素覆盖父集合中指定的值。
+    -->
+    <!--作为子，定义要合并的数据-->
+    <bean id="child" parent="parent">
+        <property name="properties">
+            <props merge="true">
+                <prop key="子的properties">子的properties</prop>
+            </props>
+        </property>
+    </bean>
+    <!--作为父，合并子中的数据-->
+    <bean id="parent" class="priv.lint.Bean.SetValueInjectionImpl">
+        <!--构造注入-->
         <constructor-arg  value="李雷"/>
         <constructor-arg  value="100"/>
         <constructor-arg type="priv.lint.Bean.Student" ref="stu"/>
+        <!--设值注入-->
+        <!--为Bean中的list集合进行依赖注入-->
+        <property name="list">
+            <list >
+                <value>list集合的第一个值</value>
+                <value>list集合的第二个值</value>
+                <value>list集合的第三个值</value>
+            </list>
+        </property>
+        <!--为Bean中的set集合进行依赖注入-->
+        <property name="set">
+            <set>
+                <value>set集合的第一个值</value>
+                <value>set集合的第二个值</value>
+                <value>set集合的第三个值</value>
+            </set>
+        </property>
+        <!--为Bean中的map集合进行依赖注入-->
+        <property name="map">
+            <map>
+                <entry key="one" value="map的第一个值"/>
+                <entry key="tow" value="map的第二个值"/>
+                <entry key="three" value="map的第三个值"/>
+            </map>
+        </property>
+        <!--为Bean中的properties集合进行依赖注入-->
+        <property name="properties">
+            <props>
+                <prop key="one">properties的第一个值</prop>
+                <prop key="tow">properties的第二个值</prop>
+                <prop key="three">properties的第三个值</prop>
+            </props>
+        </property>
     </bean>
+
 
 </beans>

@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a2c29032-9ae9-4408-9a06-bfcf8fcbeb31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/lint/entity/MyBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/priv/lint/entity/BeanLifeCycleIpmlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/entity/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/priv/lint/entity/MyBeanPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/priv/lint/entity/BeanLifeCycleIpmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/priv/lint/entity/BeanLifeCycleIpmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/SetValueInjectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/SetValueInjectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/SetValueInjectionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/SetValueInjectionImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/Student.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -369,7 +373,7 @@
       <workItem from="1544014194917" duration="3031000" />
       <workItem from="1544056313812" duration="6206000" />
       <workItem from="1544108054014" duration="2394000" />
-      <workItem from="1544139956410" duration="1853000" />
+      <workItem from="1544139956410" duration="1928000" />
     </task>
     <servers />
   </component>
@@ -406,7 +410,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20922000" />
+    <option name="totallyTimeSpent" value="20997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
