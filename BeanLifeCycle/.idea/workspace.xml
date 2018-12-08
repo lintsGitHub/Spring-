@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c29032-9ae9-4408-9a06-bfcf8fcbeb31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P_CNamespaceSettings_ConstructionInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P_CNamespaceSettings_ConstructionInjection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/SetValueInjectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/SetValueInjectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/java/priv/lint/Bean/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/SetValueInjectionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/SetValueInjectionImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/target/classes/priv/lint/Bean/Student.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
