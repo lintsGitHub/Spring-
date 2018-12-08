@@ -7,6 +7,15 @@ public class Student {
     String stuClass;
     List hobby;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", stuClass='" + stuClass + '\'' +
+                ", hobby=" + hobby +
+                '}';
+    }
+
     public List getHobby() {
         return hobby;
     }
