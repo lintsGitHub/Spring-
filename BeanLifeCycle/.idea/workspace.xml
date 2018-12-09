@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c29032-9ae9-4408-9a06-bfcf8fcbeb31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../P_CNamespaceSettings_ConstructionInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P_CNamespaceSettings_ConstructionInjection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xml-DI-SetAttributeAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-SetAttributeAssignment/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
     <session id="-1838143325">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.331" value="1" />
           <entry key="project.open.time.52" value="1" />

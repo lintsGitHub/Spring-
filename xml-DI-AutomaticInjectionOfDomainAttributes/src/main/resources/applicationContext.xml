@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--注册schoolBean-->
+    <bean class="priv.lint.School">
+        <property name="name" value="nf"/>
+    </bean>
+    <!--
+    注册StudentBean
+    autowire="byName" 从容器中查找与实体类的域属性相同名称的Bean的ID
+    并将该Bean对象自动注入给该域属性
+    -->
+    <!--<bean id="stu" class="priv.lint.Student" autowire="byName">
+        <property name="name" value="张三"/>
+        <property name="age" value="12"/>
+    </bean>-->
+
+
+    <!--
+    注册StudentBean
+    autowire="byType" 从容器中查找与实体类的域属性 is-a  的Bean
+    并将该Bean对象自动注入给该域属性
+    也就是根据类类型去找Bean，但这类类型可以满足is - a 原则，如果有多个就会报错
+    比如我有一个school ，一个继承school的NFSchool
+    在IDEA中会出现编译时报错，但在其他编译器中就说不定了
+    -->
+
+
+    <bean id="stu" class="priv.lint.Student" autowire="byType">
+        <property name="name" value="张三"/>
+        <property name="age" value="12"/>
+    </bean>
+
+</beans>
