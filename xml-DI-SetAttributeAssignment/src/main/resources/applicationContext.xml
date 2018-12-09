@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    集合设值注入
+    -->
+    <bean id="student" class="priv.lint.Student">
+        <!--这是比较复杂的注入方式-->
+        <!--<property name="list">-->
+            <!--<list>-->
+                <!--<value>list</value>-->
+                <!--<value>list2</value>-->
+            <!--</list>-->
+        <!--</property>-->
+        <!--<property name="set" >-->
+            <!--<set>-->
+                <!--<value>set</value>-->
+                <!--<value>set1</value>-->
+            <!--</set>-->
+        <!--</property>-->
+
+        <!--还有这种简单的方式-->
+        <property name="list" value="list,list1" />
+        <property name="set" value="set,set1" />
+
+        <property name="map">
+            <map>
+                <entry key="map" value="hhh"/>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="prop">prop</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
