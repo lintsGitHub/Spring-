@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    同类抽象Bean
+    在某些情况中如果bean有数据冗余等，我们需要将一些相同的抽离出来
+    -->
+    <!--抽取相同的出来-->
+    <!--abstract="true" 定义这个Bean是抽象的，不可以创建出来，创建会报错-->
+    <bean id="student" class="priv.lint.Student" abstract="true">
+        <property name="school" value="nf"/>
+    </bean>
+
+    <bean id="stu1" parent="student">
+        <property name="name" value="张三"/>
+        <property name="age" value="21"/>
+    </bean>
+    <bean id="stu2" parent="student"  >
+        <property name="name" value="李四"/>
+        <property name="age" value="22"/>
+    </bean>
+    <bean id="stu3" parent="student" >
+        <property name="name" value="王五"/>
+        <property name="age" value="24"/>
+    </bean>
+
+</beans>
