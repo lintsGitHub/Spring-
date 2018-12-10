@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    内部Bean其实是非常简单，我们可以在一个bean里面注册一个bean这样
+    外面的其他bean就没法使用内部注册的那个bean了
+    -->
+    <bean id="school" class="priv.lint.School">
+        <property name="name" value="nf"/>
+        <property name="student">
+            <bean class="priv.lint.Student">
+                <property name="name" value="张三"/>
+                <property name="age" value="23"/>
+            </bean>
+        </property>
+    </bean>
+</beans>

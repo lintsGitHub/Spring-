@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ea0a73-20f6-4244-93b4-98b117aad364" name="Default Changelist" comment="" />
+    <list default="true" id="c9ea0a73-20f6-4244-93b4-98b117aad364" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../xml-DI-InternalBean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-InternalBean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xml-DI-InternalBean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-InternalBean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xml-DI-InternalBean/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-InternalBean/src/main/java/priv/lint/App.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,25 +29,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="170" />
-          <entry key="xml" value="330" />
+          <entry key="xml" value="331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="170" />
-          <entry key="XML" value="330" />
+          <entry key="XML" value="331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="3" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="3" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -51,10 +55,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="45" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="6" column="8" selection-end-line="40" selection-end-column="8" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -98,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
@@ -125,8 +138,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/Per.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -153,7 +166,9 @@
     <option name="width" value="1026" />
     <option name="height" value="618" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -262,17 +277,18 @@
       <workItem from="1544399241061" duration="1784000" />
       <workItem from="1544405307219" duration="596000" />
       <workItem from="1544444966942" duration="104000" />
-      <workItem from="1544456788512" duration="2764000" />
+      <workItem from="1544456788512" duration="3429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5649000" />
+    <option name="totallyTimeSpent" value="6314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25570777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25570777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -281,7 +297,7 @@
       <window_info anchor="bottom" id="JRebel Executor" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,13 +325,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -351,17 +360,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="6" column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="62" />
         </state>
       </provider>
     </entry>
