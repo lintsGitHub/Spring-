@@ -1,7 +1,10 @@
 package priv.lint.entity;
 
+
+
 public class CustomizeBeanImpl implements CustomizeBean {
     public CustomizeBeanImpl() {
+
         System.out.println("构造函数");
     }
 
