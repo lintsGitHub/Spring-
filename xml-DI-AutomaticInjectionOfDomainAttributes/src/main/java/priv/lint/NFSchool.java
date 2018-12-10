@@ -1,5 +1,5 @@
 package priv.lint;
 
-public class NFSchool extends School {
+public class NFSchool  {
     String address;
 }
