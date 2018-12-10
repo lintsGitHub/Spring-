@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ea0a73-20f6-4244-93b4-98b117aad364" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/src/main/java/priv/lint/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/src/main/java/priv/lint/entity/CustomizeBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/src/main/java/priv/lint/entity/CustomizeBeanImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/target/classes/priv/lint/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/target/classes/priv/lint/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/target/classes/priv/lint/entity/CustomizeBeanImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/target/classes/priv/lint/entity/CustomizeBeanImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/target/test-classes/priv/lint/entity/CustomizeBeanImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomizeBeanLifeCycleStartAndEndBehavior/target/test-classes/priv/lint/entity/CustomizeBeanImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/lint/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c9ea0a73-20f6-4244-93b4-98b117aad364" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +24,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="169" />
+          <entry key="java" value="170" />
           <entry key="xml" value="330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="169" />
+          <entry key="JAVA" value="170" />
           <entry key="XML" value="330" />
         </counts>
       </usages-collector>
@@ -60,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-288">
-              <caret line="6" column="8" lean-forward="true" selection-end-line="40" selection-end-column="8" />
+              <caret line="6" column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -92,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/Per.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="22" column="24" lean-forward="true" selection-end-line="33" />
+              <caret line="22" column="24" selection-end-line="33" />
               <folding>
                 <element signature="e#97#98#0" expanded="true" />
                 <element signature="e#124#125#0" expanded="true" />
@@ -108,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="78">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,10 +123,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/priv/lint/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/Per.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/Student.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/priv/lint/App.java" />
       </list>
     </option>
   </component>
@@ -272,16 +262,15 @@
       <workItem from="1544399241061" duration="1784000" />
       <workItem from="1544405307219" duration="596000" />
       <workItem from="1544444966942" duration="104000" />
-      <workItem from="1544456788512" duration="2206000" />
+      <workItem from="1544456788512" duration="2764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5091000" />
+    <option name="totallyTimeSpent" value="5649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25570777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -327,13 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -354,7 +336,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/Per.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="22" column="24" lean-forward="true" selection-end-line="33" />
+          <caret line="22" column="24" selection-end-line="33" />
           <folding>
             <element signature="e#97#98#0" expanded="true" />
             <element signature="e#124#125#0" expanded="true" />
@@ -372,7 +354,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
-          <caret line="6" column="8" lean-forward="true" selection-end-line="40" selection-end-column="8" />
+          <caret line="6" column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
