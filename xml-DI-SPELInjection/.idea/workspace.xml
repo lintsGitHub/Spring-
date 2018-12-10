@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9ea0a73-20f6-4244-93b4-98b117aad364" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-SetValueInjection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/src/main/java/priv/lint/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/src/main/java/priv/lint/NFSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/src/main/java/priv/lint/NFSchool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/target/classes/priv/lint/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/target/classes/priv/lint/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/target/classes/priv/lint/NFSchool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-AutomaticInjectionOfDomainAttributes/target/classes/priv/lint/NFSchool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,9 +17,11 @@
     <session id="1782303898">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -36,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="24">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -72,9 +67,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,17 +103,17 @@
       <updated>1544370440961</updated>
       <workItem from="1544370443503" duration="401000" />
       <workItem from="1544399241061" duration="1784000" />
+      <workItem from="1544405307219" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2185000" />
+    <option name="totallyTimeSpent" value="2781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18645358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13926941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -155,8 +150,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="24">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>

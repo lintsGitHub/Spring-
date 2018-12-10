@@ -1,0 +1,2 @@
+IOC
+byName/byType 根据名字，类型自动注入Bean属性
