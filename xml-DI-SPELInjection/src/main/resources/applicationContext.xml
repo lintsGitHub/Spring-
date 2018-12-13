@@ -33,7 +33,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--
     我们也可以在per类中定义一个方法然后通过SPEL表达式在这里进行使用
     -->
-    <bean class="priv.lint.Student">
+    <bean class="priv.lint.Student" >
         <property name="name" value="#{per.name}"/>
         <property name="age" value="#{per.toStudentAge()}"/>
     </bean>
