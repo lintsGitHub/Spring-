@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    如果像我们平时的注册Bean的方式，school就存在了数据冗余，我们可不可以把这一部分抽离出来呢？
+    抽离出来的好处：如果我们要进行修改的话，并不需要一个个的去修改
+    -->
+    <!--<bean id="Alan" class="priv.lint.SimilarAbstractBeans.Student">
+        <property name="name" value="Alan"/>
+        <property name="age" value="18"/>
+        <property name="school" value="nf"/>
+    </bean>
+    <bean id="Walker" class="priv.lint.SimilarAbstractBeans.Student">
+        <property name="name" value="Walker"/>
+        <property name="age" value="18"/>
+        <property name="school" value="nf"/>
+    </bean>-->
+
+    <!--
+    因为这个类是同类Bean，我们选择使用同类抽象Bean的方式来进行处理
+    大致方式也很简单：
+    我们注册一个Bean，并把它设置为抽象的，这样的话我们在加载XML中的Bean的时候就不会创建它
+    如果强行创建会报一个错误： BeanIsAbstractException 说这个Bean是一个抽象的Bean不允许创建
+    具体实现一下同类抽离方式
+    具体原理：站在设计者方面思考，可以翻看源码
+    -->
+    <bean id="stu" class="priv.lint.SimilarAbstractBeans.Student" abstract="true">
+        <property name="school" value="nf"/>
+    </bean>
+    <!--
+    我们可以通过一个parent 属性进行stuBean与AlanBean进行关联，
+    可以这样理解：stu是父，Alan是子
+    -->
+    <bean id="Alan" parent="stu">
+        <property name="name" value="Alan"/>
+        <property name="age" value="18"/>
+    </bean>
+    <bean id="Walker" parent="stu">
+        <property name="name" value="Walker"/>
+        <property name="age" value="18"/>
+    </bean>
+
+    <!--这是一条完美的分界线，以上是同类抽象，以下是异类抽象-->
+
+    <!--
+    我们现在有了一个学生，一个老师，要把他们的school属性抽离出来
+    -->
+    <bean id="par" abstract="true">
+        <property name="school" value="nf"/>
+    </bean>
+
+    <bean id="Agnes" class="priv.lint.HeterogeneousAbstractBeans.Student" parent="par">
+        <property name="age" value="18"/>
+        <property name="name" value="Agnes"/>
+    </bean>
+    <bean id="Obel" class="priv.lint.HeterogeneousAbstractBeans.Teacher" parent="par">
+        <property name="name" value="Obel"/>
+        <property name="age" value="23"/>
+    </bean>
+
+
+</beans>
