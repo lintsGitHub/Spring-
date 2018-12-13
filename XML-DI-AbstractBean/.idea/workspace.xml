@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894d158c-9a80-4b5c-b0d7-9516a2b6dbf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BeanLifeCycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BeanLifeCycle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BeanLifeCycle/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BeanLifeCycle/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BeanLifeCycle/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BeanLifeCycle/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BeanLifeCycle/target/test-classes/priv/lint/entity/BeanLifeCycleIpmlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BeanLifeCycle/target/test-classes/priv/lint/entity/BeanLifeCycleIpmlTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreeWaysToConfigure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeWaysToConfigure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreeWaysToConfigure/src/main/java/priv/lint/AnnotationMode/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeWaysToConfigure/src/main/java/priv/lint/AnnotationMode/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreeWaysToConfigure/src/main/java/priv/lint/AnnotationMode/an/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeWaysToConfigure/src/main/java/priv/lint/AnnotationMode/an/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreeWaysToConfigure/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeWaysToConfigure/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreeWaysToConfigure/target/classes/priv/lint/AnnotationMode/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeWaysToConfigure/target/classes/priv/lint/AnnotationMode/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreeWaysToConfigure/target/classes/priv/lint/AnnotationMode/an/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeWaysToConfigure/target/classes/priv/lint/AnnotationMode/an/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-SPELInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-SPELInjection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-SPELInjection/target/classes/priv/lint/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-SPELInjection/target/classes/priv/lint/App.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,7 +138,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="644" />
     <option name="y" value="39" />
     <option name="width" value="1026" />
@@ -333,7 +322,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Designer" />
