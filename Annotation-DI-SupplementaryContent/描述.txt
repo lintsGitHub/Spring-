@@ -1,0 +1,4 @@
+1，注解方式的Bean生命周期
+2，JavaConfig
+3，SpringJUnit
+4，写一个东西来测试XML，注解的优先级

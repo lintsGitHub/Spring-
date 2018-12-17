@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a09ddf-09f8-4963-8288-766673ad2c02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/beans/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/MyJavaConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Per.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/beans/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/beans/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/test-classes/priv/lint/AppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
