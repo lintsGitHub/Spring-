@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a09ddf-09f8-4963-8288-766673ad2c02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ThreeWaysToConfigure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeWaysToConfigure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/src/main/java/priv/lint/Bean/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/src/main/java/priv/lint/Bean/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/target/classes/applicationContext1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/target/classes/applicationContext1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/target/classes/priv/lint/Bean/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-MultipleProfilesAndBeanAliases/target/classes/priv/lint/Bean/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xml-DI-SPELInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xml-DI-SPELInjection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -287,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545010066463</updated>
-      <workItem from="1545010070071" duration="10438000" />
+      <workItem from="1545010070071" duration="10980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10438000" />
+    <option name="totallyTimeSpent" value="10980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
