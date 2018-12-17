@@ -4,14 +4,17 @@
     <list default="true" id="68a09ddf-09f8-4963-8288-766673ad2c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/MyJavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/MyJavaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/JavaConfig/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/MyJavaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/MyJavaConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/src/main/java/priv/lint/beans/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/MyJavaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Per.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/JavaConfig/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/beans/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/classes/priv/lint/beans/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation-DI-SupplementaryContent/target/test-classes/priv/lint/AppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,7 +60,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -117,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="7" selection-end-line="15" selection-end-column="8" />
+            <state>
+              <caret lean-forward="true" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -232,6 +235,13 @@
               <item name="lint" type="462c0819:PsiDirectoryNode" />
               <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AnnotationDI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Annotation-DI-BasicUse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,12 +299,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545010066463</updated>
-      <workItem from="1545010070071" duration="10980000" />
+      <workItem from="1545010070071" duration="11784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10980000" />
+    <option name="totallyTimeSpent" value="11784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -350,13 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -393,6 +396,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="50" column="17" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>

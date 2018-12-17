@@ -1,4 +1,4 @@
-package priv.lint;
+package priv.lint.beans;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import priv.lint.beans.Computer;
