@@ -7,6 +7,6 @@ public class main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyJavaConfig.class);
         Student bean = context.getBean(Student.class);
         System.out.println(bean.sayHello());
-        
+        System.out.println(bean);
     }
 }
