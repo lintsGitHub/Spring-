@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ea0a73-20f6-4244-93b4-98b117aad364" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../XML-DI-AbstractBean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML-DI-AbstractBean/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c9ea0a73-20f6-4244-93b4-98b117aad364" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +14,7 @@
     <session id="1782303898">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.140" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -252,12 +248,12 @@
       <workItem from="1544574472939" duration="2327000" />
       <workItem from="1544612819749" duration="748000" />
       <workItem from="1544661337368" duration="596000" />
-      <workItem from="1544664432714" duration="3715000" />
+      <workItem from="1544664432714" duration="3760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22601000" />
+    <option name="totallyTimeSpent" value="22646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
