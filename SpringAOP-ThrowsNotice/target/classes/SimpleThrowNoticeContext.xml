@@ -13,5 +13,4 @@ http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springfr
        <property name="target" ref="student"/>
         <property name="interceptorNames" value="notice"/>
     </bean>
-
 </beans>
