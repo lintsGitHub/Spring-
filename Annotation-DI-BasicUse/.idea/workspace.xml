@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="68a09ddf-09f8-4963-8288-766673ad2c02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP-Notice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP-Notice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP-Notice/target/classes/postpositionApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP-Notice/target/classes/postpositionApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP-Notice/target/classes/priv/lint/PostpositionNotice/MyPostpositionNotice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP-Notice/target/classes/priv/lint/PostpositionNotice/MyPostpositionNotice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP-Notice/target/classes/priv/lint/PostpositionNotice/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP-Notice/target/classes/priv/lint/PostpositionNotice/main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

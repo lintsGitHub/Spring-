@@ -4,13 +4,16 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-    <!--注册Student类 放到容器中-->
-    <bean id="student" class="priv.lint.PostpositionNotice.Student"/>
-    <!--注册切面，后置通知-->
-    <bean id="notice" class="priv.lint.PostpositionNotice.MyPostpositionNotice"/>
+    <!--注册Student的Bean，放到容器中-->
+    <bean id="student" class="priv.lint.SurroundNotice.Student"/>
+    <!-- 注册切面，环绕通知 -->
+    <bean id="notice" class="priv.lint.SurroundNotice.MySurroudNotice"/>
 
+    <!--注册代理工厂Bean-->
     <bean id="proxyBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!--目标对象-->
         <property name="target" ref="student"/>
+        <!--切面对象-->
         <property name="interceptorNames" value="notice"/>
     </bean>
 </beans>
