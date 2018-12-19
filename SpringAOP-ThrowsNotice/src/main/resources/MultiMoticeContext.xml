@@ -14,7 +14,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springfr
     <bean id="per" class="org.springframework.aop.framework.ProxyFactoryBean">
         <!--目标对象-->
         <property name="target" ref="student"/>
-        <!--因为interceptorNames是传入字符串数组-->
+        <!--因为interceptorNames是传入字符串数组 这里可以写简单写法，也就是value属性中的值通过逗号隔开-->
         <property name="interceptorNames">
             <array>
                 <value>beforeAdvice</value>
@@ -22,6 +22,4 @@ http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springfr
             </array>
         </property>
     </bean>
-
-
 </beans>
