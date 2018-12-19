@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a09ddf-09f8-4963-8288-766673ad2c02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringAOP-Notice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP-Notice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP-ThrowsNotice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP-ThrowsNotice/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -283,6 +285,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18949772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

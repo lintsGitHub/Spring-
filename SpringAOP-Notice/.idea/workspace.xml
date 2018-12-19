@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9fd8849-b1cc-4720-afcb-a81daeb5a969" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Annotation-DI-BasicUse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation-DI-BasicUse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP-ThrowsNotice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP-ThrowsNotice/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +38,7 @@
         <counts>
           <entry key="java" value="29" />
           <entry key="kt" value="1" />
-          <entry key="xml" value="11" />
+          <entry key="xml" value="12" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
@@ -44,13 +46,23 @@
         <counts>
           <entry key="JAVA" value="29" />
           <entry key="Kotlin" value="1" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="18" selection-start-line="18" selection-end-line="56" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,26 +161,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="priv" type="462c0819:PsiDirectoryNode" />
               <item name="lint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringAOPNotice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringAOP-Notice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="priv" type="462c0819:PsiDirectoryNode" />
-              <item name="lint" type="462c0819:PsiDirectoryNode" />
-              <item name="PostpositionNotice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringAOPNotice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringAOP-Notice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="priv" type="462c0819:PsiDirectoryNode" />
-              <item name="lint" type="462c0819:PsiDirectoryNode" />
-              <item name="SurroundNotice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAOPNotice" type="b2602c69:ProjectViewProjectNode" />
@@ -286,15 +278,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545148856215</updated>
-      <workItem from="1545148859237" duration="15393000" />
+      <workItem from="1545148859237" duration="15684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15393000" />
+    <option name="totallyTimeSpent" value="15684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Designer" />
@@ -344,13 +337,6 @@
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -479,6 +465,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="18" selection-start-line="18" selection-end-line="56" selection-end-column="17" />
         </state>
       </provider>
     </entry>
