@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd ">
+    <!--注册StudentBean-->
+    <bean id="student" class="priv.lint.NameMatchingMethod.Student"/>
+    <!--注册切面 &#45;&#45; 环绕通知-->
+    <bean id="interceptor" class="priv.lint.RegularExpressionMatchingMethod.MyMethodInterceptor"/>
+    <!--注册正则表达式顾问-->
+    <bean id="advisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice" ref="interceptor"/>
+        <!--放的是全限定方法名 priv.lint.RegularExpressionMatchingMethod.sayHello-->
+        <property name="pattern" value=".*sayHello"/>
+     </bean>
+    <!--注册代理工厂Bean-->
+    <bean id="per" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="student"/>
+        <property name="interceptorNames" value="advisor"/>
+    </bean>
+</beans>
