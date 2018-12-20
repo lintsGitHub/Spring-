@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--注册两个POJOBean-->
+    <bean id="student" class="priv.lint.BeanNameAutoProxyCreator.Student"/>
+    <bean id="teacher" class="priv.lint.BeanNameAutoProxyCreator.Teacher"/>
+    <!--注册环绕通知Bean-->
+    <bean id="interceptor" class="priv.lint.DefaultAdvisorAutoProxyCreator.MyMethodInterceptor"/>
+    <!--根据名称的自动代理器注册顾问-->
+    <bean id="advisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <property name="advice" ref="interceptor"/>
+        <property name="mappedName" value="sayHello"/>
+    </bean>
+    <!--注册Bean名称自动代理生成器-->
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <!--设置目标类-->
+        <property name="beanNames" value="student"/>
+        <!--设置切面-->
+        <!--设置切面为通知类型-->
+        <!--<property name="interceptorNames" value="interceptor"/>-->
+        <property name="interceptorNames" value="advisor"/>
+    </bean>
+
+</beans>

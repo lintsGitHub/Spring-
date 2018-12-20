@@ -15,4 +15,26 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
     </bean>
     <!--注册自动代理生成器-->
     <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
+    <!--
+    问题：为什么只写这一句代码就可以了，也就是我们只是注册了这个类就可以了
+    可以看源码：
+    public class DefaultAdvisorAutoProxyCreator extends AbstractAdvisorAutoProxyCreator implements BeanNameAware
+    它先是继承了AbstractAdvisorAutoProxyCreator 这个类，
+    实现了BeanNameAware这个接口 这个接口就可以获取到Bean的ID
+    然后我们继续跟AbstractAdvisorAutoProxyCreator这个类
+    public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
+	implements SmartInstantiationAwareBeanPostProcessor, BeanFactoryAware{}
+	SmartInstantiationAwareBeanPostProcessor这个就是Bean后处理器的一个子类，也就是说我们
+	DefaultAdvisorAutoProxyCreator这个类是实现了Bean后处理器的方式进行对业务逻辑方法的增强
+    如果说是使用Bean后处理器的方式，那它每一个类都会增强的，也就是我们的顾问只是一个过滤
+    然后他如果想让我们单单Student类的方法进行增强，那就没法子搞了
+    -->
+    <!--
+    就当前可以看出DefaultAdvisorAutoProxyCreator还是不够好的，它主要存在三个问题
+    1，不可以自由选择目标对象
+    2，不可以选择切面类型，切面只能是advisor
+    3，不可以选择advisor，所以advisor都会被当做切面织入到目标方法中
+    如果要解决这三个问题我们就要使用到另外一个自动代理生成器了
+    Bean名称自动代理生成器
+    -->
 </beans>
