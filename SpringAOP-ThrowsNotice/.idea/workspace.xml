@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d3259a-3f8a-4642-b928-6b350cd60852" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-Advisor/描述.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/MultiMoticeMode/描述.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/SimpleThrowsNotice/描述.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/UseCGLIBProxy/描述.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-AOP-Advisor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-AOP-Advisor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring-AOP-AutomaticProxyGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-AOP-AutomaticProxyGenerator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-AOP-AutomaticProxyGenerator/描述.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-AOP-AutomaticProxyGenerator/描述.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/MultiMoticeMode/MyMethodBeforeAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/MultiMoticeMode/MyPostpositionNotice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/MultiMoticeMode/Per.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/MultiMoticeMode/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/MultiMoticeMode/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/SimpleThrowsNotice/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/SimpleThrowsNotice/MyRunTimeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/SimpleThrowsNotice/MyThrowsNotice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/SimpleThrowsNotice/Per.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/SimpleThrowsNotice/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/SimpleThrowsNotice/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/UseCGLIBProxy/MyBeforeAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/UseCGLIBProxy/Per.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/UseCGLIBProxy/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/UseCGLIBProxy/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/priv/lint/UseCGLIBProxy/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/描述.md" beforeDir="false" afterPath="$PROJECT_DIR$/描述.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +16,7 @@
     <session id="125926567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.opened" value="3" />
@@ -80,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="-393">
+              <caret line="18" selection-start-line="18" selection-end-line="51" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/UseCGLIBProxy/描述.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -194,7 +170,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="106" />
     <option name="y" value="8" />
     <option name="width" value="1064" />
@@ -409,15 +385,16 @@
       <updated>1545205673672</updated>
       <workItem from="1545205677169" duration="6868000" />
       <workItem from="1545261788432" duration="7558000" />
-      <workItem from="1545287815130" duration="1069000" />
+      <workItem from="1545287815130" duration="1690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15495000" />
+    <option name="totallyTimeSpent" value="16116000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3127854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -642,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/描述.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -686,6 +656,13 @@
             <caret column="13" selection-start-column="13" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="18" selection-start-line="18" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>

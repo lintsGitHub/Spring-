@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--注册Student，Teacher这两个目标对象-->
+    <bean id="student" class="priv.lint.DefaultAdvisorAutoProxyCreator.Student"/>
+    <bean id="teacher" class="priv.lint.DefaultAdvisorAutoProxyCreator.Teacher"/>
+    <!--注册环绕通知Bean-->
+    <bean id="interceptor" class="priv.lint.DefaultAdvisorAutoProxyCreator.MyMethodInterceptor"/>
+    <!--注册根据名称匹配的顾问-->
+    <bean id="advisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <property name="advice" ref="interceptor"/>
+        <property name="mappedName" value="sayHello"/>
+    </bean>
+    <!--注册自动代理生成器-->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
+</beans>
