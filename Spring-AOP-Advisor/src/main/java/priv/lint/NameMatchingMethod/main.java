@@ -9,6 +9,5 @@ public class main {
         Per bean = (Per) context.getBean("proxyBean");
         System.out.println(bean.sayHello()); //经过环绕通知 输出 ：HELLOWORD
         System.out.println(bean.sayHi()); //保持原来的输出 ： Hi
-
     }
 }
