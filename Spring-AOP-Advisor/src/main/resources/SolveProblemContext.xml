@@ -14,6 +14,13 @@ http://www.springframework.org/schema/beans/spring-beans.xsd ">
     我们去拿的是代理对象，也就是增强后的对象，在逻辑上是错误的
     在程序中犯了一个大忌：我们希望拿到的是目标对象，而我们每次去拿的都是代理对象
     也就是说我们的耦合度提高了，就是SpringAOP与主业务逻辑代码完全耦合在一起
+
+    终究ProxyFactoryBean这个类的功能太简单了
+    如果他能多生产几个代理类 ，调用目标类的要增强方法时自动增强
+    那么一切就迎刃而解了
+    初期的一个推测Spring在这方面处理的一个思路，
+    给ProxyFactoryBean类再加一个封装
+    使功能增强
     -->
 
     <!--注册StudentBean-->
