@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16b1997-6fa8-45d4-b4b5-fdeeb1fbe536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/BeanNameAutoProxyCreator/MyMethodInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/BeanNameAutoProxyCreator/Per.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/BeanNameAutoProxyCreator/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/BeanNameAutoProxyCreator/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priv/lint/BeanNameAutoProxyCreator/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/BeanNaneAutoProxyContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DefaultAdvisorContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DefaultAdvisorContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/BeanNaneAutoProxyContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BeanNaneAutoProxyContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,36 +19,40 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.68" value="2" />
+          <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="24" />
           <entry key="md" value="2" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="24" />
           <entry key="Markdown" value="2" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="419" />
+          <entry key="java" value="456" />
           <entry key="md" value="83" />
-          <entry key="xml" value="792" />
+          <entry key="xml" value="795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="419" />
+          <entry key="JAVA" value="456" />
           <entry key="Markdown" value="83" />
-          <entry key="XML" value="792" />
+          <entry key="XML" value="795" />
         </counts>
       </usages-collector>
     </session>
@@ -69,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/BeanNaneAutoProxyContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+            <state relative-caret-position="336">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -97,7 +105,6 @@
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/aa.md" />
         <option value="$PROJECT_DIR$/描述.md" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/Per.java" />
-        <option value="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/MyMethodInterceptor.java" />
@@ -108,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/BeanNameAutoProxyCreator/MyMethodInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/priv/lint/BeanNameAutoProxyCreator/main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/BeanNaneAutoProxyContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/main.java" />
       </list>
     </option>
   </component>
@@ -136,10 +144,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="106" />
-    <option name="y" value="8" />
-    <option name="width" value="1064" />
-    <option name="height" value="690" />
+    <option name="y" value="21" />
+    <option name="width" value="1026" />
+    <option name="height" value="618" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,7 +157,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,26 +204,6 @@
               <item name="Spring-AOP-AutomaticProxyGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="priv" type="462c0819:PsiDirectoryNode" />
-              <item name="lint" type="462c0819:PsiDirectoryNode" />
-              <item name="BeanNameAutoProxyCreator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomaticProxyGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-AOP-AutomaticProxyGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="priv" type="462c0819:PsiDirectoryNode" />
-              <item name="lint" type="462c0819:PsiDirectoryNode" />
-              <item name="DefaultAdvisorAutoProxyCreator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomaticProxyGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-AOP-AutomaticProxyGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,11 +231,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../老师的上课代码/ssm-empty-single" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
@@ -323,18 +311,23 @@
       <option name="presentableId" value="Default" />
       <updated>1545286642638</updated>
       <workItem from="1545286646921" duration="12593000" />
-      <workItem from="1545317221288" duration="6470000" />
+      <workItem from="1545317221288" duration="6811000" />
+      <workItem from="1545351973717" duration="4084000" />
+      <workItem from="1545398875583" duration="1832000" />
+      <workItem from="1545571190861" duration="597000" />
+      <workItem from="1545608714359" duration="1196000" />
+      <workItem from="1545707546553" duration="771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19063000" />
+    <option name="totallyTimeSpent" value="27884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28995433" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2366819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -465,12 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="26" selection-end-line="13" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,12 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="13" lean-forward="true" selection-end-line="13" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,9 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="22" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/DefaultAdvisorContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
@@ -544,8 +515,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/BeanNaneAutoProxyContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="336">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/priv/lint/DefaultAdvisorAutoProxyCreator/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>

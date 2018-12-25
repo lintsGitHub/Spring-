@@ -1,5 +1,6 @@
 package priv.lint.DefaultAdvisorAutoProxyCreator;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class main {
@@ -20,4 +21,5 @@ public class main {
         System.out.println(bean1.sayHello());
         System.out.println(bean1.sayHi());
     }
+    
 }

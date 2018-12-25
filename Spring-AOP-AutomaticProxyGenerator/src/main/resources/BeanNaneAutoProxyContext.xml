@@ -22,5 +22,4 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
         <!--<property name="interceptorNames" value="interceptor"/>-->
         <property name="interceptorNames" value="advisor"/>
     </bean>
-
 </beans>
