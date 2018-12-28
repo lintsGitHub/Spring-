@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16b1997-6fa8-45d4-b4b5-fdeeb1fbe536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/Spring-AOP-AspectJAnnotativeDevelopment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/src/main/java/priv/lint/AnnotativeDevelopment/MyAspectJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/src/main/java/priv/lint/AnnotativeDevelopment/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/src/main/java/priv/lint/AnnotativeDevelopment/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/src/main/java/priv/lint/AnnotativeDevelopment/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring与IoC(第一个程序)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring与IoC(第一个程序)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-AOP-AspectJAnnotativeDevelopment/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +16,7 @@
     <session id="1199798303">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.63" value="1" />
